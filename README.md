@@ -1,7 +1,25 @@
-# Working-with-cancer-data
-●	Aggregated large amount of Data from various cancer patients over 30 feature variables.
-●	Preprocessed and cleaned the data.
-●	Did basic analysis on that data and formed a baseline model using logistic regression
-●	To improve the baseline model used decision tree classifier , various naïve Bayes classifier as well as SVM
-●	Selecting SVM as the most accurate model , tuned the hyper parameters to increase the accuracy and retrained the improved model
-●	Achieved an accuracy above 99% which was reasonable
+# Working with Cancer Data
+
+This project focuses on building an accurate cancer diagnosis model using classical machine learning techniques on a dataset containing 30 feature variables collected from various patients.
+
+## Overview
+
+The workflow includes data aggregation, preprocessing, exploratory analysis, baseline modeling, and progressive model improvement through multiple algorithms and hyperparameter tuning.
+
+## Steps Performed
+
+* **Aggregated** a large dataset of cancer patient records with 30 feature variables.
+* **Preprocessed and cleaned** the data to handle inconsistencies and prepare it for modeling.
+* Conducted **basic exploratory analysis** to understand feature behavior and correlations.
+* Built a **baseline logistic regression model** to establish initial performance.
+* Improved performance using:
+
+  * Decision Tree Classifier
+  * Naive Bayes Classifiers
+  * Support Vector Machine (SVM)
+* Identified **SVM as the most accurate model**, then performed **hyperparameter tuning** to further optimize performance.
+* **Achieved over 99% accuracy**, demonstrating the effectiveness of the optimized SVM model for this classification task.
+
+## Result
+
+A highly accurate cancer prediction model with >99% accuracy, supported by systematic analysis, model comparison, and optimization.
