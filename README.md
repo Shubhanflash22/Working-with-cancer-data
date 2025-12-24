@@ -16,7 +16,7 @@ A machine learning project that predicts whether a patient has cancer or not bas
 
 ## Project Overview
 
-This project aggregates patient data to predict the presence of cancer using machine learning models. Starting with a baseline logistic regression model, various classifiers were explored and hyperparameters tuned to improve accuracy.
+This project aggregates patient data to predict the presence of cancer using machine learning models. Starting with a baseline logistic regression model, various classifiers were explored and hyperparameters tuned to improve accuracy. Please note that the data used in this exercize is completely fake.
 
 Key components include:
 
@@ -41,34 +41,25 @@ Key components include:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cancer-prediction.git
-cd cancer-prediction
+git clone https://github.com/yourusername/Working-with-cancer-data.git
+cd Working-with-cancer-data
 
-# Install required Python packages
-pip install -r requirements.txt
+# Pip install required Python packages
 ```
 
 ## Usage
 
 1. Prepare patient dataset in CSV format.
-2. Run preprocessing script:
+2. Run the EDA script to understand the data
 
 ```bash
-python preprocess_data.py
+python SHUBHAN MITAL - ML-A2-Cancer Activity.ipynb
 ```
-
-3. Train and evaluate models:
+3. Run the prediction script:
 
 ```bash
-python train_models.py
+python SHUBHAN MITAL - Assignment_2_EDA.ipynb
 ```
-
-4. Predict on new patient data:
-
-```bash
-python predict.py --input new_patient_data.csv
-```
-
 ## Models
 
 * **Logistic Regression:** Baseline model for initial comparison.
@@ -87,6 +78,19 @@ python predict.py --input new_patient_data.csv
 * Include more diverse patient datasets to improve generalization.
 * Explore ensemble methods (Random Forest, Gradient Boosting) for further improvement.
 * Deploy as a clinical decision support tool for early cancer detection.
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@software{Working-with-cancer-data,
+  author = {Shubhan Mital},
+  title = {Working with cancer data},
+  year = {2025},
+  url = https://github.com/Shubhanflash22/Working-with-cancer-data.git
+}
+```
 
 ## License
 
